@@ -1,0 +1,96 @@
+body
+{
+    background-image: url(Imagenes/tejon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p
+{
+    text-align: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav
+{
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px; /* Espacio entre la barra de navegación y el contenido */
+    display: flex; /* Establece la barra de navegación como un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+    text-align: center; /* Centra el texto */
+    margin: 43px 11px;
+}
+  
+nav ul
+{
+    list-style: none; /* Quita los puntos de la lista desordenada */
+    margin: 0; /* Quita el margen de la lista desordenada */
+    padding: 0; /* Quita el padding de la lista desordenada */
+    display: flex; /* Establece la lista desordenada como un contenedor flexible */
+}
+  
+nav li
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+nav a
+{
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita la decoración de los enlaces */
+    transition: color 0.2s ease; /* Agrega un efecto de transición al texto de los enlaces */
+}
+  
+nav a:hover
+{
+    color: #ccc; /* Color del texto de los enlaces al pasar el mouse por encima */
+}
+
+ul
+{
+    color: #fff;
+    display: block;
+    text-align: end;
+    margin: 17px;
+    margin-top: 300px;
+    list-style: none;
+    
+}
+
+li
+{
+    margin-left: 9px;
+}
+
+#feis
+{
+    position: relative;
+    top: 100px;
+    left: 586px;
+    width: 200px;
+    height: 170px;
+}
+
+#tuiter
+{
+    position: relative;
+    top: 100px;
+    left: 632px;
+    width: 240px;
+    height: 220px;
+}
